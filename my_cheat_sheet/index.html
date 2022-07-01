@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cheat Sheet</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>CSS position and display values</h1>
+            <h5>My own cheat sheet</h5>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <h2>Position values</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Value</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="code">static</span></td>
+                        <td>Static</td>
+                        <td>This is the default position value of an element. The element is positiones according the normal flow of the document.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">relative</span></td>
+                        <td>Relative</td>
+                        <td>The element is positioned according to the normal flow of the document and then offset relative to itself.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">absolute</span></td>
+                        <td>Absolute</td>
+                        <td>The element is removed from the normal document flow and no space is created for the element in the page layout. The element is positioned relative to its closest positioned ancestor.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">fixed</span></td>
+                        <td>Fixed</td>
+                        <td>The element is removed from the normal document flow and no space is crated for the element in the page layout. It's positioned relative to the initial cointaining block established by the viewport.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">sticky</span></td>
+                        <td>Sticky</td>
+                        <td>The element is positioned according the normal flow of the document and then offset relative to its nearest scrolling ancestor and containing block.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Display values</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Value</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="code">inline</span></td>
+                        <td>Inline</td>
+                        <td>The element generates one or more inline element boxes that do not generate line breaks before or after themselves.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">block</span></td>
+                        <td>Block</td>
+                        <td>The element generates a block element box, generatig line breaks both before and after the element.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">inline-block</span></td>
+                        <td>Inline Block</td>
+                        <td>The element generates a block element box that will be flowed with sorrounding content as if it were a single inline box</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+
+</body>
+</html>
